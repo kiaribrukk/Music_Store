@@ -23,10 +23,13 @@ public class HomeController : Controller
     {
         empresa.InicializarCatalogo();
         int i = -1;
-        do{
-        i++;
-        }while(i < empresa.catalogo.Count && i != id);
-        if(i < empresa.catalogo.Count) ViewBag.disco = empresa.catalogo[i];
+        do
+        {
+            i++;
+        } while (i < empresa.catalogo.Count && i != id);
+
+        if (i < empresa.catalogo.Count) 
+        ViewBag.disco = empresa.catalogo[i];
         return View();
     }
 }

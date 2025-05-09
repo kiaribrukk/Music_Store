@@ -8,7 +8,7 @@
 @foreach (disco disco in ViewBag.catalogo)
 {
      <div>
-        <img src = "/fotos/@disco.foto">
+        <img src = "~/fotos/@disco.foto">
         <a href = '@Url.Action("informaciónDisco", "Home", new {id=disco.id})'>@disco.nombre</a>
      </div>
 }

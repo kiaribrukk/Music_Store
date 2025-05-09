@@ -9,7 +9,7 @@ namespace Music_Store.Models
             catalogo = new List<disco>
             {
                 // Álbumes de Bad Bunny
-                new disco(1, "X100PRE", "Bad Bunny", "Rimas Music", "Reggaetón", "x100pre.jfif", new List<string>()
+                new disco(0, "X100PRE", "Bad Bunny", "Rimas Music", "Reggaetón", "x100pre.jfif", new List<string>()
                 {
                     
                     "NI BIEN NI MAL",
@@ -29,7 +29,7 @@ namespace Music_Store.Models
                     "Estamos Bien",
                     "MIA"
                 }),
-                new disco(2, "OASIS", "Bad Bunny & J Balvin", "Universal Music Latino", "Reggaetón", "oasis.jfif", new List<string>()
+                new disco(1, "OASIS", "Bad Bunny & J Balvin", "Universal Music Latino", "Reggaetón", "oasis.jfif", new List<string>()
                 {
                     "MOJAITA",
                     "YO LE LLEGO",
@@ -40,7 +40,7 @@ namespace Music_Store.Models
                     "ODIO",
                     "COMO UN BEBÉ",
                 }),
-                new disco(3, "YHLQMDLG", "Bad Bunny", "Rimas Music", "Reggaetón", "yhlqmdlg.jfif", new List<string>()
+                new disco(2, "YHLQMDLG", "Bad Bunny", "Rimas Music", "Reggaetón", "yhlqmdlg.jfif", new List<string>()
                 {
                     "Si Veo a Tu Mamá",
                     "La Dificil",
@@ -63,7 +63,7 @@ namespace Music_Store.Models
                     "Hablamos Mañana",
                     "<3"
                 }),
-                new disco(4, "EL ÚLTIMO TOUR DEL MUNDO", "Bad Bunny", "Rimas Music", "Reggaetón", "eutdm.jfif", new List<string>()
+                new disco(3, "EL ÚLTIMO TOUR DEL MUNDO", "Bad Bunny", "Rimas Music", "Reggaetón", "eutdm.jfif", new List<string>()
                 {
                     "EL MUNDO ES MÍO",
                     "TE MUDASTE",
@@ -82,7 +82,7 @@ namespace Music_Store.Models
                     "ANTES QUE SE ACABE",
                     "CANTARES DE NAVIDAD"
                 }),
-                new disco(5, "Un Verano Sin Ti", "Bad Bunny", "Rimas Music", "Reggaetón", "uvst.jfif", new List<string>()
+                new disco(4, "Un Verano Sin Ti", "Bad Bunny", "Rimas Music", "Reggaetón", "uvst.jfif", new List<string>()
                 {
                     "Moscow Mule",
                     "Después De La Playa",
@@ -108,7 +108,7 @@ namespace Music_Store.Models
                     "Agosto",
                     "Callaita"
                 }),
-                new disco(6, "nadie sabe lo que va a pasar mañana", "Bad Bunny", "Rimas Music", "Reggaetón", "nslqvapm.jfif", new List<string>()
+                new disco(5, "nadie sabe lo que va a pasar mañana", "Bad Bunny", "Rimas Music", "Reggaetón", "nslqvapm.jfif", new List<string>()
                 {
                     "NADIE SABE",
                     "MONACO",
@@ -134,7 +134,7 @@ namespace Music_Store.Models
                     "UN PREVIEW"
                 }),
 
-                new disco(7, "DEBÍ TIRAR MÁS FOTOS", "Bad Bunny", "Rimas Music", "Reggaetón", "dtmf.jfif", new List<string>()
+                new disco(6, "DEBÍ TIRAR MÁS FOTOS", "Bad Bunny", "Rimas Music", "Reggaetón", "dtmf.jfif", new List<string>()
                 {
                     "NUEVAYOL",
                     "VOY A LLEVARTE PA PR",
@@ -156,7 +156,7 @@ namespace Music_Store.Models
                 }),
 
                 // Álbumes de Tini
-                new disco(8, "Quiero Volver", "Tini", "Sony Music Latin", "Pop", "qv.jfif", new List<string>()
+                new disco(7, "Quiero Volver", "Tini", "Sony Music Latin", "Pop", "qv.jfif", new List<string>()
                 {
                     "Quiero Volver",
                     "Flores",
@@ -170,7 +170,7 @@ namespace Music_Store.Models
                     "Te Quiero Más",
                     "Respirar"
                 }),
-                new disco(9, "TINI TINI TINI", "Tini", "Sony Music Latin", "Pop", "tinitinitini.jfif", new List<string>()
+                new disco(8, "TINI TINI TINI", "Tini", "Sony Music Latin", "Pop", "tinitinitini.jfif", new List<string>()
                 {
                     "Un Beso en Madrid",
                     "Fresa",
@@ -187,7 +187,7 @@ namespace Music_Store.Models
                     "Suéltate el Pelo",
                     "22"
                 }),
-                new disco(10, "Cupido", "Tini", "Sony Music Latin", "Pop", "cupido.jfif", new List<string>()
+                new disco(9, "Cupido", "Tini", "Sony Music Latin", "Pop", "cupido.jfif", new List<string>()
                 {
                     "Cupido",
                     "Te Pido",
@@ -204,7 +204,7 @@ namespace Music_Store.Models
                     "Bar",
                     "La Triple T"
                 }),
-                new disco (11, "Un Mechón de Pelo", "Tini", "Sony Music Latin", "Pop", "umdp.jfif", new List<string>()
+                new disco (10, "Un Mechón de Pelo", "Tini", "Sony Music Latin", "Pop", "umdp.jfif", new List<string>()
                 {
                     "pa",
                     "posta",
