@@ -3,29 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace TercerTP.Models
+namespace Music_Store.Models
 {
-    public class Disco
+    public class disco
+{
+    public int id { get; private set; }
+    public string nombre { get; private set; }
+    public string artista { get; private set; }
+    public string productor { get; private set; }
+    public string genero { get; private set; }
+    public string foto { get; private set; }
+    public List<string> canciones { get; private set; }
+
+    public disco(int id, string nombre, string artista, string productor, string genero, string foto, List<string> canciones)
     {
-        public string nombre { get; private set;}
-        public string productor { get; private set;}
-        public string genero { get; private set;}
-        public List<Disco> temas {get; private set;}
-        public int id  { get; private set;}
-
-
-        public Disco (string nombre,string productor, string genero, List<Disco> temas, int id )
-        {
-            this.nombre = nombre;
-            this.productor = productor;
-            this.genero= genero;
-            this.id = id;
-        }
-
+        this.id = id;
+        this.nombre = nombre;
+        this.artista = artista;
+        this.productor = productor;
+        this.genero = genero;
+        this.foto = foto;
+        this.canciones = canciones;
     }
+}
 
-    public static void InicializarAlbum()
-    {
-        Disco disco = new Disco ()
-    }
 }
